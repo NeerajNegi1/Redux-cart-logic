@@ -41,8 +41,8 @@ exports.signup = (req, res) => {
                                 port: 587,
                                 secure: false, // true for 465, false for other ports
                                 auth: {
-                                    user: "dawn.parisian@ethereal.email", // generated ethereal user
-                                    pass: "3ajsxcrQN5d5QCbB7x", // generated ethereal password
+                                    user: "dummy@sdfasdfasdfad.email", // generated ethereal user
+                                    pass: "dummy", // generated ethereal password
                                 },
                             });
 
