@@ -1,0 +1,23 @@
+.btn_add_remove{
+    background-color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: 2px solid black;
+    font-size: x-large;
+    border-radius: 500px;
+    text-align: center;
+}
+.btn_add_remove:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn_add_remove_container p{
+    font-size: x-large;
+    font-weight: 600;
+    margin: 0.1rem 1rem;
+}
+.btn_add_remove_container{
+    display: flex;
+}

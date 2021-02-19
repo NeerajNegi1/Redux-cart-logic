@@ -1,0 +1,35 @@
+.product_image{
+    height: 8rem;
+    width: 16rem;
+    object-fit: contain;
+    margin: 1rem 1rem;
+}
+.product_container{
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.product_title{
+    width: 100%;
+    font-weight: 600;
+}
+.product_details{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.btn_product_list{
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: 2px solid white;
+    outline: none;
+    font-weight: 600;
+}
+.btn_product_list:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}

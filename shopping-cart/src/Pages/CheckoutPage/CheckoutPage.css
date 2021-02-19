@@ -1,0 +1,14 @@
+.checkout_products_container h1{
+    text-align: center;
+}
+.shopping_cart{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.total_price{
+    margin: 0rem 2rem;
+}
